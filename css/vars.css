@@ -1,0 +1,9 @@
+:root {
+  --main-font-size: 18px;
+  --title-font-color: rgb(170, 211, 245);
+  --text-font-color: rgb(203, 232, 245);
+  --main-text-font-family: "Open Sans";
+  --title-font-family: "Montserrat";
+  --swiper-pagination-bullet-inactive-color: #fff;
+  --swiper-pagination-bullet-inactive-opacity: 0.5;
+}
