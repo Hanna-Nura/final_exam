@@ -93,7 +93,20 @@ $(document).ready(function () {
         result = result + 3;
       }
     });
-    alert(result);
+    let level = "";
+    if (result < 10) {
+      level = "Elementary";
+    } else if (result < 20) {
+      level = "Pre-Intermediate/Intermediate";
+    } else if (result < 30) {
+      level = "Intermediate/Upper-Intermediate";
+    } else if (result < 35) {
+      level = "Upper-Intermediate/Advanced";
+    } else {
+      level = "Advanced";
+    }
+
+    alert("Your level is " + level);
 
     $(this)[0].reset();
     return false;
